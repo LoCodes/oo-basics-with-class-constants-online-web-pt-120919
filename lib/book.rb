@@ -14,6 +14,8 @@ class Book
   end
   
   # create the writer for genre and add the logic for the class constant
+  
+  #passed without the writer for genre and kept it on attr_accessor
     def genre=(genre)
         @genre = genre
         GENRES << genre
